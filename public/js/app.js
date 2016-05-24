@@ -3,12 +3,17 @@
 	
 	app.controller('todocontroller', function($scope){
 		$scope.items = [];
+		$scope.last_id = 0;
 		
 		$scope.addNew = addNew;
 		
 		function addNew(){
-			$scope.items.push({'title':$scope.new_title});
+			if($scope.new_title && $scope.new_title.trim()!=""){
+				$scope.items.push({'id':++$scope.last_id,'title':$scope.new_title});
+			}
+			$scope.new_title = "";
 		}
+		
 	});
 	
 	app.directive('todoEnter', function () {
@@ -30,4 +35,15 @@
 	});
 	
     $.material.init();
+    
+    $(".svert").noUiSlider({
+        orientation: "vertical",
+        start: 2,
+        step: 1,
+        connect: "lower",
+        range: {
+          min: 1,
+          max: 3
+        }
+    });
 })(jQuery);

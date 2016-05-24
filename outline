@@ -6,4 +6,22 @@ Policy
 
 [Todo]
 Task
+Log
 
+
+[todo]--start-->[doing]
+[todo]--cancel-->[cancelled]
+[todo]--suspend-->[suspended]
+[doing]--finish-->[finished]
+[doing]--cancel-->[cancelled]
+[doing]--suspend-->[suspended]
+[finished]--repeat-->[todo]
+[suspended]--resume-->[todo|doing]
+[suspended]--cancel-->[cancelled]
+[cancelled]--delete-->[]
+
+
+create->[todo]
+[todo]->edit
+[doing]->edit
+[]

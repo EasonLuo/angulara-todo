@@ -10,6 +10,10 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title></title>
+    
+    <!-- Material Design fonts -->
+ 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -74,30 +78,67 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-4 col-md-3 sidebar">
+        <div class="col-sm-3 col-md-2 sidebar">
         
         	
         </div>
-        <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			<div class="row">
-				<div class="col-md-4 col-sm-12" ng-controller="todocontroller">
+				<div class="col-md-5 col-sm-12" ng-controller="todocontroller">
 					<div class="well">
-						<div class="form-group form-group-lg label-floating is-empty">
-							<label class="control-label" for="new_title">Title</label>
-							<input type="text" class="form-control" ng-model="new_title" id="new_title" todo-enter="addNew()"/>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group form-group-lg label-floating is-empty">
+									<div class="input-group">
+										<label class="control-label" for="new_title">Title</label>
+										<input type="text" class="form-control" ng-model="new_title" id="new_title" todo-enter="addNew()"/>
+										<span class="input-group-btn">
+											<button class="btn btn-primary btn-fab btn-fab-mini">
+												<i class="material-icons">add</i>
+											</button>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="row text-center">
+								<div class="col-md-4">
+									<h5>Importance</h5>
+									<div class="slider svert"></div>
+								</div>
+								<div class="col-md-4">
+									<h5>Urgency</h5>
+									<div class="slider svert"></div>
+								</div>
+								<div class="col-md-4">
+									<h5>Difficulty</h5>
+									<div class="slider svert"></div>
+								</div>
+							</div>
 						</div>
-						<div class="list-group">
-							<div ng-repeat-start="item in items" class="list-group-item">@{{item.title}}</div>
-							<div ng-repeat-end class="list-group-separator"></div>
+						<div id="todos">
+							<div class="list-group">
+								<div ng-repeat="item in items" class="list-group-item" data-toggle="collapse" data-target="#note_@{{item.id}}">
+									<div>@{{item.title}}<a href="#" class="pull-right"><i class="material-icons">note_add</i></a></div>
+									<div class="collapse" id="note_@{{item.id}}">
+										<div class="form-group form-group-sm">
+											<div class="note">Test @{{item.title}}</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					
 				</div>
-				<div class="col-md-4 col-sm-12">
+				<div class="col-md-4 col-sm-7">
+					<div class="well">
 					
+					</div>
 				</div>
-				<div class="col-md-4 col-sm-12">
-					
+				<div class="col-md-3 col-sm-5">
+					<div class="well">
+						
+					</div>
 				</div>
 			</div>
         </div>
@@ -116,6 +157,9 @@
     
     <script src="{{url('js/material.min.js')}}"></script>
     <script src="{{url('js/ripples.min.js')}}"></script>
+    
+    <!-- Sliders -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/noUiSlider/6.2.0/jquery.nouislider.min.js"></script>
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{url('js/ie10-viewport-bug-workaround.js')}}"></script>

@@ -133,8 +133,11 @@ body {
 		top:50px;
 		left:0px;
 		width:100%;
-		background-color: rgba(15,15,15,1);
+		background-color: #FFFFFF;
 		text-align:right;
+		border-radius:0px;
+		border-bottom:1px solid #EEEEEE;
+		color:#333;
 	}
 	
 }
@@ -146,4 +149,9 @@ body {
 
 .well {
 	background-color:#FFFFFF;
+}
+
+.slider{
+	height: 48px;
+	margin:0px calc(50% - 1px);
 }

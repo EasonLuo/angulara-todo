@@ -44,7 +44,7 @@
 
   <body ng-app="todo">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">TODO</a>
@@ -78,13 +78,13 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-4 col-md-3 sidebar">
         
         	
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
 			<div class="row">
-				<div class="col-md-5 col-sm-12" ng-controller="todocontroller">
+				<div class="col-md-8 col-sm-12" ng-controller="todocontroller">
 					<div class="well">
 						<div class="row">
 							<div class="col-md-12">
@@ -130,16 +130,7 @@
 					</div>
 					
 				</div>
-				<div class="col-md-4 col-sm-7">
-					<div class="well">
-					
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-5">
-					<div class="well">
-						
-					</div>
-				</div>
+				
 			</div>
         </div>
       </div>

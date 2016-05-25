@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLogsTable extends Migration
+class CreateTracksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,14 @@ class CreateLogsTable extends Migration
      */
     public function up()
     {
-        Schema::create('logs', function (Blueprint $table) {
+        Schema::create('tracks', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('task_id')->unsigned();
-            $table->string('note',200)->nullable();
-            $table->tinyInteger('from_state')->default(0);
-            $table->tinyInteger('to_state')->default(0);
-            $table->string('action',20)->nullable();
-            $table->timestamp('created_at')->nullable();
+            $table->tinyInteger('from_state');
+            $table->tinyInteger('to_state');
+            $table->string('action',20);
+            $table->string('note',200);
+            $table->timestamp('created_at')->useCurrent();
         });
     }
 
@@ -30,6 +30,6 @@ class CreateLogsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('logs');
+        Schema::drop('tracks');
     }
 }

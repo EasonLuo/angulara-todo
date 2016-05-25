@@ -1,0 +1,900 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fput",
+				"file_put_contents"
+			],
+			[
+				"fn",
+				"cubrid_field_name"
+			],
+			[
+				"User",
+				"user"
+			],
+			[
+				"hei",
+				"HEIGHT"
+			],
+			[
+				"get",
+				"getWidth"
+			],
+			[
+				"res",
+				"resolutionY"
+			],
+			[
+				"M",
+				"Map"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+			"settings":
+			{
+				"buffer_size": 26882,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Support/Fluent.php",
+			"settings":
+			{
+				"buffer_size": 3851,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: conta",
+				"Snippet: BS container"
+			],
+			[
+				"Snippet: b",
+				"Snippet: BS container-fluid col-3*4"
+			],
+			[
+				"newfi",
+				"ANF: New File"
+			],
+			[
+				"artisan make:model",
+				"Laravel Artisan 5: Make:Model"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"colorsub",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"viewer",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"installpage",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/angulara-todo"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/angulara-todo/database/migrations/2016_05_24_013105_create_logs_table.php",
+		"/Applications/MAMP/htdocs/faker/index.php",
+		"/Users/Eason/Downloads/data (2).csv",
+		"/Users/Eason/Downloads/data (1).csv",
+		"/Applications/MAMP/htdocs/angulara-todo/app/Models/Task.php",
+		"/Applications/MAMP/htdocs/angulara-todo/.env.example",
+		"/Applications/MAMP/htdocs/angulara-todo/.env",
+		"/Applications/MAMP/htdocs/angulara-todo/resources/views/welcome.blade.php",
+		"/Applications/MAMP/htdocs/angulara-todo/public/js/app.js",
+		"/Applications/MAMP/htdocs/angulara-todo/database/migrations/2016_05_24_010944_create_tasks_table.php",
+		"/Applications/MAMP/htdocs/angulara-todo/composer.json",
+		"/Applications/MAMP/htdocs/faker/composer.json",
+		"/Users/Eason/Downloads/data (6).csv",
+		"/Applications/MAMP/htdocs/angulara-todo/database/factories/ModelFactory.php",
+		"/Users/Eason/Downloads/data.csv",
+		"/Users/Eason/Downloads/data (3).csv",
+		"/Users/Eason/Downloads/data (4).csv",
+		"/Applications/MAMP/conf/php5.6.10/php.ini",
+		"/Applications/MAMP/htdocs/faker/data.csv",
+		"/Applications/MAMP/htdocs/soniq/ewarranty/export_registration.csv",
+		"/Applications/MAMP/htdocs/soniq/plugins/system/quatiuspronto/quatiuspronto.php",
+		"/Users/Eason/Downloads/data_.24-05-2016.csv",
+		"/Applications/MAMP/htdocs/angulara-todo/angulara-todo",
+		"/Applications/MAMP/htdocs/angular-example/index.php",
+		"/Applications/MAMP/htdocs/php-week1/Demo/simpleHTML/purpleFrame.html",
+		"/Applications/MAMP/htdocs/store/.gitignore",
+		"/Users/Eason/Pictures/mix/口袋妖怪·黄 中文版（翻译正常 属x修正）.gb",
+		"/Users/Eason/Pictures/mix/EX2006.gba",
+		"/Users/Eason/Projects/soniq-website/resources/views/admin/product/edit.blade.php",
+		"/Users/Eason/Projects/soniq-website/resources/views/admin/product/form.blade.php",
+		"/Users/Eason/Projects/soniq-website/vendor/laravelcollective/html/src/FormBuilder.php",
+		"/Users/Eason/Projects/soniq-website/app/Models/Product/Product.php",
+		"/Users/Eason/Projects/soniq-website/resources/views/admin/product/list.blade.php",
+		"/Users/Eason/Projects/soniq-website/database/factories/ModelFactory.php",
+		"/Users/Eason/Projects/soniq-website/app/Http/Controllers/Admin/ProductsController.php",
+		"/Users/Eason/Projects/soniq-website/database/migrations/2016_02_24_000003_create_products_table.php",
+		"/Users/Eason/Projects/soniq-website/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/Users/Eason/Projects/soniq-website/app/Providers/FormBuilderServiceProvider.php",
+		"/Users/Eason/Projects/soniq-website/config/app.php",
+		"/Users/Eason/Projects/soniq-website/app/Libraries/Extension/FormBuilder.php",
+		"/Users/Eason/Downloads/com_virtuemart.3.0.12_extract_first/com_virtuemart.3.0.12/administrator/components/com_virtuemart/helpers/shopfunctions.php",
+		"/Users/Eason/Downloads/template_55747_azTslitiC4354yj16Pi1/sources/dump.sql",
+		"/Applications/MAMP/htdocs/realestate/wp-content/plugins/easy-property-listings/easy-property-listings.php",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/Users/Eason/Projects/smart/app/Specification.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_223358_create_customers_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_134125_create_orders_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_133732_create_specifications_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_133536_create_user_profiles_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/Eason/Projects/smart/app/User.php",
+		"/Users/Eason/Projects/smart/app/Order.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_134158_create_user_addresses_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_133650_create_tags_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_133703_create_categories_table.php",
+		"/Users/Eason/Projects/smart/.env",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_133632_create_products_table.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_133616_create_roles_table.php",
+		"/Users/Eason/Projects/smart/app/UserChange.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_02_11_124105_create_user_changes_table.php",
+		"/Users/Eason/Projects/smart/app/Shop.php",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php",
+		"/Users/Eason/Projects/smart/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/Users/Eason/Projects/smart/bootstrap/app.php",
+		"/Users/Eason/Projects/smart/resources/views/admin/script.blade.php",
+		"/Users/Eason/Projects/smart/resources/views/admin/style.blade.php",
+		"/Users/Eason/Projects/smart/app/Http/routes.php",
+		"/Users/Eason/Projects/smart/resources/assets/sass/app.scss",
+		"/Users/Eason/Projects/smart/resources/assets/sass/sidebar.scss",
+		"/Users/Eason/Projects/smart/resources/views/admin/dashboard.blade.php",
+		"/Users/Eason/Projects/smart/resources/views/admin/layout.blade.php",
+		"/Users/Eason/Projects/smart/storage/framework/views/41043f82044f1359acfaea38e010b0866d474371.php",
+		"/Users/Eason/Projects/smart/app/Jobs/Job.php",
+		"/Users/Eason/Projects/smart/app/Http/Controllers/Auth/AuthController.php",
+		"/Users/Eason/Projects/smart/app/Http/Controllers/UserController.php",
+		"/Users/Eason/Projects/smart/resources/views/admin/sidebar.blade.php",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/PHP class.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Eason/Projects/smart/app/Http/Controllers/Controller.php",
+		"/Users/Eason/Projects/smart/resources/views/admin/content.blade.php",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/Users/Eason/Projects/smart/public/css/app.css",
+		"/Users/Eason/Projects/smart/gulpfile.js",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/snippets/BS panel.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/snippets/BS container-fluid col-md-12.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/BS container-fluid col-3*4.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/snippets/PHP public function.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/snippets/PHP protected function.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/snippets/PHP private function.sublime-snippet",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Users/Eason/Projects/smart/package.json",
+		"/Users/Eason/Projects/smart/vendor/symfony/console/Application.php",
+		"/Users/Eason/Projects/smart/public/css/sidebar.css",
+		"/Users/Eason/Projects/smart/views/admin/sidebar.blade.php",
+		"/Users/Eason/Projects/smart/node_modules/laravel-elixir/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/client/SidebarPane.js",
+		"/Users/Eason/Projects/smart/resources/assets/css/sidebar.css",
+		"/Users/Eason/Projects/smart/app/Console/Kernel.php",
+		"/Users/Eason/Projects/smart/app/Http/Middleware/Authenticate.php",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/Users/Eason/Projects/smart/database/migrations/2016_01_31_125241_create_user_profiles_table.php",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/Users/Eason/Projects/smart/app/UserProfile.php",
+		"/Users/Eason/Projects/smart/app/Providers/EventServiceProvider.php",
+		"/Users/Eason/Projects/smart/resources/views/auth/register.blade.php",
+		"/private/etc/hosts",
+		"/Users/Eason/Projects/smart/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php",
+		"/Users/Eason/Projects/smart/config/database.php",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/Laravel 5 Artisan.sublime-settings",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Eason/Projects/smart/app/Http/Controllers/HomeController.php",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/Laravel 5 Artisan/Laravel 5 Artisan.sublime-settings",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/Facebook Material Theme/Material-Theme-Darker.sublime-theme",
+		"/Users/Eason/Library/Application Support/Sublime Text 3/Packages/Facebook Material Theme/Material-Theme.sublime-theme"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$output = fopen('php://output', 'w');",
+			";\n",
+			"error_reporting",
+			";\n",
+			"\n// fetch the data\nmysql_connect('localhost', 'username', 'password');\nmysql_select_db('database');\n$rows = mysql_query('SELECT field1,field2,field3 FROM table');",
+			"autoload",
+			"1E231E",
+			"jos_",
+			"            \n",
+			"\" ",
+			"{{users}}",
+			"\n	+fn",
+			"fn",
+			"<?php\n\nclass UserController extends Controller {\n	\n}\n\n?>",
+			";\n",
+			"slide_trans",
+			"6",
+			"		  	\n",
+			"body",
+			"		  	\n",
+			"default",
+			"}",
+			"Dashboard",
+			"\nRoute::group(['prefix'=>'admin','namespace'=>'Admin']);\n",
+			"        \n",
+			"('",
+			"s",
+			"left",
+			"Authenticatable",
+			"col",
+			"panel",
+			"AuthController",
+			"Controlle",
+			"Controller",
+			"create",
+			"Create",
+			"38, 50, 56",
+			"->\n",
+			"var",
+			"validateCode",
+			"checkDate",
+			"<tr",
+			"InsertPatientHeader",
+			"STANDARD",
+			"%STANDARD.01.017.P",
+			"bkrec019",
+			"mbsbox2",
+			"AddForm",
+			"CheckBookDate",
+			"valClaimCode",
+			"validateCode",
+			"<script",
+			"DateLookupFrame",
+			"tabindex",
+			"ExtraMBS2",
+			"ShowMBSFields2",
+			"bkr",
+			"j",
+			";",
+			"title",
+			"javascript",
+			">\n",
+			"key",
+			"		\n",
+			"();"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ca_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24582,
+								24582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22631.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vendor/laravel/framework/src/Illuminate/Support/Fluent.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 427.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "angulara-todo.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fluent",
+				"vendor/laravel/framework/src/Illuminate/Support/Fluent.php"
+			],
+			[
+				"blu",
+				"vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php"
+			],
+			[
+				"create_log",
+				"database/migrations/2016_05_24_013105_create_logs_table.php"
+			],
+			[
+				"welcom",
+				"angulara-todo/resources/views/welcome.blade.php"
+			],
+			[
+				"create_logs",
+				"angulara-todo/database/migrations/2016_05_24_013105_create_logs_table.php"
+			],
+			[
+				"modelf",
+				"angulara-todo/database/factories/ModelFactory.php"
+			],
+			[
+				"export",
+				"soniq/ewarranty/export_registration.csv"
+			],
+			[
+				"quatiuspr",
+				"soniq/plugins/system/quatiuspronto/quatiuspronto.php"
+			],
+			[
+				"",
+				"faker/composer.json"
+			],
+			[
+				"com",
+				"angulara-todo/composer.json"
+			],
+			[
+				"composer.json",
+				"faker/composer.json"
+			],
+			[
+				"index",
+				"faker/index.php"
+			],
+			[
+				"createas_k",
+				"database/migrations/2016_05_24_010944_create_tasks_table.php"
+			],
+			[
+				"task",
+				"app/Models/Task.php"
+			],
+			[
+				"app.js",
+				"public/js/app.js"
+			],
+			[
+				"wel",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				".env",
+				".env.example"
+			],
+			[
+				"ind",
+				"public/index.php"
+			],
+			[
+				"products",
+				"database/migrations/2016_02_24_000003_create_products_table.php"
+			],
+			[
+				"model",
+				"database/factories/ModelFactory.php"
+			],
+			[
+				"product",
+				"app/Models/Product/Product.php"
+			],
+			[
+				"productscon",
+				"app/Http/Controllers/Admin/ProductsController.php"
+			],
+			[
+				"formb",
+				"vendor/laravelcollective/html/src/FormBuilder.php"
+			],
+			[
+				"edit",
+				"resources/views/admin/product/edit.blade.php"
+			],
+			[
+				"form.bla",
+				"resources/views/admin/product/form.blade.php"
+			],
+			[
+				"list.b",
+				"resources/views/admin/product/list.blade.php"
+			],
+			[
+				"form.ed",
+				"resources/views/admin/product/form.blade.php"
+			],
+			[
+				"formbuilder",
+				"vendor/laravelcollective/html/src/FormBuilder.php"
+			],
+			[
+				"formbuil",
+				"app/Providers/FormBuilderServiceProvider.php"
+			],
+			[
+				"formbuild",
+				"app/Libraries/Extension/FormBuilder.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"sidebar",
+				"resources/views/admin/sidebar.blade.php"
+			],
+			[
+				"usercontroller",
+				"app/Http/Controllers/UserController.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"user.php",
+				"app/User.php"
+			],
+			[
+				"order.php",
+				"app/Order.php"
+			],
+			[
+				"spec",
+				"app/Specification.php"
+			],
+			[
+				"user_address",
+				"database/migrations/2016_02_11_134158_create_user_addresses_table.php"
+			],
+			[
+				"user_",
+				"database/migrations/2016_02_11_133536_create_user_profiles_table.php"
+			],
+			[
+				"shop.php",
+				"app/Shop.php"
+			],
+			[
+				"userchange",
+				"app/UserChange.php"
+			],
+			[
+				"passwordreset",
+				"vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php"
+			],
+			[
+				"user.ph",
+				"app/User.php"
+			],
+			[
+				"app.php",
+				"bootstrap/app.php"
+			],
+			[
+				"passr",
+				"database/migrations/2014_10_12_100000_create_password_resets_table.php"
+			],
+			[
+				"41043f82044f1359acfaea38e010b0866d474371",
+				"storage/framework/views/41043f82044f1359acfaea38e010b0866d474371.php"
+			],
+			[
+				"side.scss",
+				"resources/assets/sass/sidebar.scss"
+			],
+			[
+				"app.scss",
+				"resources/assets/sass/app.scss"
+			],
+			[
+				"layout",
+				"resources/views/admin/layout.blade.php"
+			],
+			[
+				"content",
+				"resources/views/admin/content.blade.php"
+			],
+			[
+				"routes.php",
+				"app/Http/routes.php"
+			],
+			[
+				"side",
+				"resources/views/admin/sidebar.blade.php"
+			],
+			[
+				"welcomecontroller",
+				"vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub"
+			],
+			[
+				"layo",
+				"resources/views/admin/layout.blade.php"
+			],
+			[
+				"app.css",
+				"public/css/app.css"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"app.sc",
+				"resources/assets/sass/app.scss"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"g",
+				"gulpfile.js"
+			],
+			[
+				"la",
+				"resources/views/admin/layout.blade.php"
+			],
+			[
+				"sideb",
+				"public/css/sidebar.css"
+			],
+			[
+				"sidebar.",
+				"public/css/sidebar.css"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"appli",
+				"vendor/symfony/console/Application.php"
+			],
+			[
+				"layout.",
+				"resources/views/admin/layout.blade.php"
+			],
+			[
+				"ke",
+				"app/Http/Kernel.php"
+			],
+			[
+				"kern",
+				"app/Console/Kernel.php"
+			],
+			[
+				"aut",
+				"config/auth.php"
+			],
+			[
+				"auth",
+				"config/auth.php"
+			],
+			[
+				"routes",
+				"app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"kernel",
+				"app/Console/Kernel.php"
+			],
+			[
+				"service",
+				"vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"authcont",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"register",
+				"resources/views/auth/register.blade.php"
+			],
+			[
+				"usertable",
+				"database/migrations/2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"passreset",
+				"database/migrations/2014_10_12_100000_create_password_resets_table.php"
+			],
+			[
+				"userprofile",
+				"database/migrations/2016_01_31_125241_create_user_profiles_table.php"
+			],
+			[
+				"up_",
+				"database/migrations/2016_01_31_125241_create_user_profiles_table.php"
+			],
+			[
+				"esp",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"uerpro",
+				"app/UserProfile.php"
+			],
+			[
+				"d",
+				"config/database.php"
+			],
+			[
+				".en",
+				".env"
+			],
+			[
+				"data",
+				"config/database.php"
+			],
+			[
+				"user.bla",
+				"resources/views/auth/register.blade.php"
+			],
+			[
+				"user",
+				"database/migrations/2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"regi",
+				"resources/views/auth/register.blade.php"
+			],
+			[
+				"homecont",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"authcon",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"authcontro",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"user_pro",
+				"database/migrations/2016_01_31_125241_create_user_profiles_table.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 210.0,
+		"last_filter": "addColumn",
+		"selected_items":
+		[
+			[
+				"addColumn",
+				"addColumn"
+			],
+			[
+				"timestamp",
+				"timestamp"
+			],
+			[
+				"generateEDi",
+				"generateEDI"
+			]
+		],
+		"width": 884.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
